@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",            
+    "jsx": "react-jsx",
+    "module": "commonjs",                                
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,                                      
+    "skipLibCheck": true,
+    "baseUrl": "src",
+    "paths": {
+      "@features/*": ["features/*"],
+      "@entities/*": ["entities/*"],
+      "@pages/*": ["pages/*"],
+      "@shared/*": ["shared/*"],
+      "@app/*": ["app/*"]
+    }
+  }
+}
